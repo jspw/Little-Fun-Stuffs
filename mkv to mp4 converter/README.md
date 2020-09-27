@@ -7,6 +7,7 @@
 This is a simple python script that will use **ffmpeg** to convert MKV file to MP4 !
 
 Converting files into mp4 one by one so _automate_ it :3
+It will convert all the mkv files in the current directory to mp4 files and will delete the mkv files after concerting!
 
 Features :
 
