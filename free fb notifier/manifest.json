@@ -1,0 +1,19 @@
+{
+    "name": "New Message Notifier",
+    "description": "Free facebook new message notifier",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "96": "images/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://free.facebook.com/messages/*"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
